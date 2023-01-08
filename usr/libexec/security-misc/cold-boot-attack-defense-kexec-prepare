@@ -1,55 +1,50 @@
 #!/bin/bash
+
 ## Copyright (C) 2023 - 2023 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 ## Copyright (C) 2023 - 2023 Friedrich Doku <friedrichdoku@gmail.com>
 ## See the file COPYING for copying conditions.
-set -x
+
+#set -x
 set -e
 
-true "env:"
-env
-
-## Debugging.
-## Lets hope $1 is set to reboot, poweroff or halt by systemd.
-true "1: $1"
-
-
-# Get the kernel command-line arguments
+## Get the kernel command-line arguments
 cmdline=$(cat /proc/cmdline)
 
-# Get the current boot image
+## Get the current boot image
 kernel=$(echo "$cmdline" | grep -o 'BOOT_IMAGE=\S*' | cut -d '=' -f 2)
 initrd=$(echo "$kernel" | sed "s#vmlinuz#initrd.img#")
 
-kernel="/boot/$kernel"
-initrd="/boot/$initrd"
-
-if test -e $initrd; then
-  echo "Initrd File Found"
-else
-  echo "Initrd File NOT FOUND"
-  exit 1
+if ! test -r "$initrd"; then
+   echo "$0: ERROR: Initrd File '$initrd' not found or not readable!"
+   exit 1
 fi
 
-if test -e $kernel; then
-  echo "Kernel File Found"
-else
-  echo "Kernel File NOT FOUND"
-  exit 1
+if ! test -r "$kernel"; then
+   echo "$0: ERROR: Kernel File '$kernel' not found or not readable!"
+   exit 1
 fi
 
-
-if   systemctl list-jobs | grep "poweroff.target" | grep -q "start"; then
-	wram="yes"
-	wact="poweroff"
-elif systemctl list-jobs | grep "reboot.target" | grep -q "start"; then
-	wram="yes"
-	wact="reboot"
-elif systemctl list-jobs | grep "halt.target" | grep -q "start"; then
-	wram="yes"
-	wact="halt"
+if   systemctl list-jobs --no-legend | grep "poweroff.target" | grep -q "start"; then
+   wiperamexit="yes"
+   wiperamaction="poweroff"
+elif systemctl list-jobs --no-legend | grep "reboot.target" | grep -q "start"; then
+   wiperamexit="yes"
+   wiperamaction="reboot"
+elif systemctl list-jobs --no-legend | grep "halt.target" | grep -q "start"; then
+   wiperamexit="yes"
+   wiperamaction="halt"
 else
-	echo "No shutdown option found!"
-	exit 0
+   ## Could be kexec.target.
+   ## Could be run during package installation.
+   echo "$0: INFO: Neither poweroff, reboot or halt. Therefore skipping kexec load, ok."
+   exit 0
 fi
 
-kexec -l $kernel --initrd=$initrd --reuse-cmdline --append="wiperamexit=$wram wiperamaction=$wact"
+echo "INFO: wiperamaction: $wiperamaction"
+
+## Debugging.
+echo kexec --load "$kernel" --initrd="$initrd" --reuse-cmdline --append="wiperamexit=$wiperamexit wiperamaction=$wiperamaction"
+
+kexec --load "$kernel" --initrd="$initrd" --reuse-cmdline --append="wiperamexit=$wiperamexit wiperamaction=$wiperamaction"
+
+echo "OK."

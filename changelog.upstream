@@ -1,3 +1,558 @@
+commit 938b87d26c195b6804796d4fa6050a453278700c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 18:06:10 2023 -0500
+
+    comment
+
+commit 0b1310a21944939d94de18d8ac6d494446d23d0c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 18:05:47 2023 -0500
+
+    output
+
+commit 2fd302f580509842d290b2b0a27079dca445d5cd
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 18:02:21 2023 -0500
+
+    output
+
+commit 921bc3e867411e5a96ca3e4641a7501038cf5139
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:49:24 2023 -0500
+
+    bumped changelog version
+
+commit 080abe574ba10b8365587a1c89085efe88f210ee
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:48:21 2023 -0500
+
+    output
+
+commit 5689c07f97d2775b9445f75a10554e70875a5636
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:37:46 2023 -0500
+
+    comment
+
+commit 8e2db269b01e5d3c28346dd7713074a346fa3e72
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:36:51 2023 -0500
+
+    cleanup
+
+commit a07af631559e9c9312c263826969b5b028509a2e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:35:56 2023 -0500
+
+    output
+
+commit 1d22ebde08984968deb143dab244a2b6e30d45e9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:23:35 2023 -0500
+
+    bumped changelog version
+
+commit 539156c0dad74c584adb02beacdcf7a3a9b8b982
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:23:25 2023 -0500
+
+    drop_caches
+
+commit 02f44459ad194444122e98a9f743c2725edb4e43
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:22:45 2023 -0500
+
+    DRACUT_QUIET=no
+
+commit abbaea582de898e48a852a0a153fe336341afe17
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 17:16:23 2023 -0500
+
+    bumped changelog version
+
+commit ab89d0e06e68fa47fa4058416a6c8700551f1b9a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:59:00 2023 -0500
+
+    cleanup
+
+commit 2e833b40a1af1f194ec392ff0c05b0060bb27fe8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:43:09 2023 -0500
+
+    prevent "wait: pid 55 is not a child of this shell"
+
+commit 3777ecba8568cf5458b05b3eeedf98f0ba51cd69
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:34:19 2023 -0500
+
+    comment
+
+commit e0ded5e69d38a02f9896277a67c0d209e4ee4ad4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:34:04 2023 -0500
+
+    comment
+
+commit 996c6af2d84cf23f323ca80c04fab26beea2aa1b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:31:23 2023 -0500
+
+    lower debugging
+
+commit 4fca8f4225f134316e734d5f85d12b9e39b99b0f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:28:11 2023 -0500
+
+    comment
+
+commit fa579cad8980c8d9231a9e2682267910544be175
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:20:48 2023 -0500
+
+    bumped changelog version
+
+commit c9107bb044e3038d837e371aa7467edcedbbdb16
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:11:48 2023 -0500
+
+    debugging
+
+commit b7bb24f984cb5669d9cc9b3522ee57a05070cef9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:09:11 2023 -0500
+
+    description
+
+commit 2bd9cc5bc1ac94d039a7e515d3a839af820fb4be
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:08:12 2023 -0500
+
+    output
+
+commit 2456fed3614268abfb238f3a0783719adb45b711
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 16:00:42 2023 -0500
+
+    output
+
+commit c0b5fea6806ea07b667a341b2400aacb7191b27f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:59:52 2023 -0500
+
+    protect against wipe RAM reboot loop
+
+commit c1b87d250c4e5decd726e7fd67b482ff1eaecbf1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:37:47 2023 -0500
+
+    bumped changelog version
+
+commit 91aedb234aa7c516dca8016f6b82536cfe25f410
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:36:36 2023 -0500
+
+    output
+
+commit 368ad8e636ae30eb60c8f2c6ce7117970a77c021
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:36:05 2023 -0500
+
+    cleanup
+
+commit d8bf40f7a28f53f2f51c41b77663e5a40a5d8fb4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:35:45 2023 -0500
+
+    refactoring
+
+commit 166a6863a1c249e68e3f38109b115503bc5663ec
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:35:15 2023 -0500
+
+    output
+
+commit 20596488be39f92f069523a3d86c0e6b6ec15399
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:34:20 2023 -0500
+
+    long options
+
+commit 1e19c2cbad8cdf97f6bb460c90cfa330492b8019
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:32:25 2023 -0500
+
+    Depends: kexec-tools
+    
+    required for cold boot attack defense second RAM wipe after reboot
+
+commit b0630f58c136d6c7a964447806ec8ee603a73aa8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:24:05 2023 -0500
+
+    debugging
+
+commit dde01f36634337a24d0cd37cfe5a456ff77e8b0e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:23:23 2023 -0500
+
+    long options
+
+commit 6e0926eece54a55502fa67c2abedf5b718e306e6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:22:58 2023 -0500
+
+    long options
+
+commit 51a5f68c7654774d37986916029607da588189ab
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:22:25 2023 -0500
+
+    refactoring
+
+commit 83800fcb4fd365aab58a5f70f78f39af7d9371dc
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:18:58 2023 -0500
+
+    --no-legend
+
+commit 822cf646182f8ff649ea08da2fd4365022871a61
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:13:36 2023 -0500
+
+    output
+
+commit bb2f0a3c4421e3686477a6dff81bb87d5dcd836f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:12:15 2023 -0500
+
+    minor
+
+commit c3a822af0e9c8bb6c9b34b732ba48710e3ee1974
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:09:25 2023 -0500
+
+    test if readable
+
+commit 227871c12c57ecc5ff6d4075ea59a7dc9eca3dd3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:07:34 2023 -0500
+
+    output
+
+commit c09f4da1922f40f666dae0570295b5ab5c02e8a9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:06:56 2023 -0500
+
+    code simplification
+
+commit 01fee8a7b4a12c8c2be4173337decc37ec3e6019
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:06:31 2023 -0500
+
+    refactoring
+
+commit f675f8da0d33ab18efa782ee155a8632e9a3dc0f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:05:58 2023 -0500
+
+    quotes
+
+commit d0daf75db3529e206565604a63e11ee1268ed39b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:05:24 2023 -0500
+
+    quotes
+
+commit 8bcf7e3c235c1193f3a6d43a7c8b23b50e972de7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:04:57 2023 -0500
+
+    minor
+
+commit 2cc3c6c59ca88cf44751bc2e9bb7055b46102284
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:04:42 2023 -0500
+
+    lower debugging
+
+commit 10932bb5d83c469f556b46f42ee517e882d87a4f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:04:23 2023 -0500
+
+    minor
+
+commit c88e95ce33f30f67726ac086c1b8d020b1024ebc
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:04:07 2023 -0500
+
+    output
+
+commit 06034d2e4f97712fc84ad75e3fa8ba6bf4fccfee
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 15:03:06 2023 -0500
+
+    fix
+
+commit 059ebb212d03f5d01d46362530702dbeaefdce5e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 14:35:30 2023 -0500
+
+    comment
+
+commit c0304ec029198665aaf63c843f5b7d5567f95208
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 14:35:09 2023 -0500
+
+    minor
+
+commit d5271d6250f0f6ea5adf7bc71fc48fddab1a9af4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 14:31:40 2023 -0500
+
+    bumped changelog version
+
+commit d31c17ea047fbbd698ad9f074a00d6fba2aaf283
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 14:31:14 2023 -0500
+
+    fix
+
+commit 41d116aa2f6d5ab33a1d5889f6ae251e5b8b5538
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 14:30:12 2023 -0500
+
+    lintian
+
+commit e83ba18553832134b2f6da6ce98b0ee0c852961e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 14:29:12 2023 -0500
+
+    minor
+
+commit 53ab93d8f6553eab1682290d42faf0d466f06219
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 14:27:42 2023 -0500
+
+    bumped changelog version
+
+commit bb121e52bbab151b2104f1a333cabc3889ef47b0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 14:27:22 2023 -0500
+
+    chmod +x
+
+commit 42ab341a58de4c54b20b8f6dc4e048ce61068cf4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 12:57:36 2023 -0500
+
+    bumped changelog version
+
+commit d37b19fb6bb3cadbb74d011be026fd8d2653ac17
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 12:55:05 2023 -0500
+
+    comment
+
+commit 0367250dc74f9e6ec38f9da5809ff661493134a8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 12:54:35 2023 -0500
+
+    comment
+
+commit c1df2fd601f3445a0a811a679efa7d2176026558
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 12:52:14 2023 -0500
+
+    comment
+
+commit c2b20603fdd62a3f82c842c7ebeaad0f70e005d0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 12:49:18 2023 -0500
+
+    output
+
+commit 999a82ed946c8fd57654a0a90e2a2e53ef98a788
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 12:46:21 2023 -0500
+
+    output
+
+commit 2860560edb7951a8ac9de1c23c9655c655b40f23
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 12:43:07 2023 -0500
+
+    minor
+
+commit 450ff378b067070618e4a972f8131acac5b292e0
+Merge: 929f49f b8e82ff
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 7 12:38:14 2023 -0500
+
+    Merge remote-tracking branch 'friedy10/master'
+
+commit b8e82fffca0138afaf20e1b2faf755ce1533af45
+Author: Friedrich Doku <friedrichdoku@gmail.com>
+Date:   Sat Jan 7 11:31:02 2023 -0500
+
+    Get rid of /dev/kmsg
+
+commit 78a4fad6674bb11fa682b908e0d3bc63705e7d20
+Author: Friedrich Doku <friedrichdoku@gmail.com>
+Date:   Sat Jan 7 11:14:31 2023 -0500
+
+    Change echo to info. Included more reliable way of getting initrd and kernel. Allow user custom kexec
+
+commit 8da3b9c40c6ee073addcc06d5227b3043438b768
+Author: Friedrich Doku <friedrichdoku@gmail.com>
+Date:   Fri Jan 6 21:40:17 2023 -0500
+
+    fix last line
+
+commit 7cf51a1b433bfb2ccf4fa14b7807184e9e3681c5
+Author: Friedrich Doku <friedrichdoku@gmail.com>
+Date:   Fri Jan 6 21:32:57 2023 -0500
+
+    Checking job queue instead of dbus
+
+commit 4b7053a6353cf0e092a6ef712e955b4318671bfc
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:53:28 2023 -0500
+
+    Update wipe-ram.sh
+
+commit 779ad24b573b83c08e89569e5213e018377d1535
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:53:18 2023 -0500
+
+    Update wipe-ram-needshutdown.sh
+
+commit d45ba826bca6f5efef846de01a34a0a8c7936442
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:53:10 2023 -0500
+
+    Update module-setup.sh
+
+commit b3d4314a069a608380ca9dd01d76c653bdb87078
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:52:51 2023 -0500
+
+    Update wipe-ram.sh
+
+commit 33877250172349cccb2c776c1fa7aed2e8ad716f
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:52:42 2023 -0500
+
+    Update wipe-ram-needshutdown.sh
+
+commit ec68ee6ded7294c161b3d0793bf8874b12262190
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:52:32 2023 -0500
+
+    Update module-setup.sh
+
+commit 014d10b9778907a9282ec337023f8c2b01b0ca6b
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:52:09 2023 -0500
+
+    Update cold-boot-attack-defense-kexec-prepare.service
+
+commit 62dcdcf7649175e0587a84708e8f0aa318a45d30
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:51:45 2023 -0500
+
+    Update cold-boot-attack-defense-kexec-prepare
+
+commit f4637509205c11eddaa13151b93c961e9d345be6
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:48:22 2023 -0500
+
+    Update cold-boot-attack-defense-kexec-prepare.service
+
+commit 14abfbfccdd3403d90a16dd5b2a1057ccf4da3d5
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:48:03 2023 -0500
+
+    Update cold-boot-attack-defense-kexec-prepare
+
+commit 37a5264696797c0807570606361e04cb8dcb2395
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:47:34 2023 -0500
+
+    Update wipe-ram.sh
+
+commit 7ac45acd0f3e3e0a68e3fc4036787e8e7d4ebe9f
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:47:23 2023 -0500
+
+    Update wipe-ram-needshutdown.sh
+
+commit 114a37fcd39ff20ddd9e8cca829763a9b96a8115
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:47:14 2023 -0500
+
+    Update module-setup.sh
+
+commit 1eeb32b7b96ab1df63d808b6715fef7a6e1a9482
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:47:01 2023 -0500
+
+    Update wipe-ram.sh
+
+commit c5accc5ad191fe54a96e12cd1f1286508da8243c
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:46:51 2023 -0500
+
+    Update wipe-ram-needshutdown.sh
+
+commit f9ebc3cfa86674025ccd65c22cde2427ea2f4ae3
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 13:46:40 2023 -0500
+
+    Update module-setup.sh
+
+commit 28687092ef4f57afab5e8d32f68492799694a379
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 12:52:36 2023 -0500
+
+    Update cold-boot-attack-defense-kexec-prepare
+
+commit d67d3c1d7d788fff589806457ff140e8f82089a0
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 12:51:18 2023 -0500
+
+    Update wipe-ram.sh
+
+commit 7fa64d68423d24668e44eb0d7e19ccf4845ee711
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 12:50:58 2023 -0500
+
+    Update wipe-ram-needshutdown.sh
+
+commit 14c7239681300edc4f715bc96c5235cddf677c60
+Author: Friedrich Doku <frd20@pitt.edu>
+Date:   Fri Jan 6 12:50:42 2023 -0500
+
+    Update module-setup.sh
+
+commit 73913ea5afef8354f433f7cf87c7cd64c16be0a0
+Author: Friedrich Doku <friedrichdoku@gmail.com>
+Date:   Fri Jan 6 12:49:34 2023 -0500
+
+    Added checks
+
+commit a7015f4ddff892cab17f96713ddb0a720ebb7901
+Author: Friedrich Doku <friedrichdoku@gmail.com>
+Date:   Fri Jan 6 10:50:34 2023 -0500
+
+    added files
+
+commit 929f49f333fc88d91ed4cef849921b0b4a69bfea
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Dec 18 14:37:51 2022 -0500
+
+    bumped changelog version
+
 commit 75beb52bd5b7cee4a48eead53dbbe7fac9f6cc9e
 Merge: 98f753d 58b622f
 Author: Patrick Schleizer <adrelanos@whonix.org>
